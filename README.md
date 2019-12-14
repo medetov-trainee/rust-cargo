@@ -117,7 +117,7 @@ C:.
                         work-products.bin
 ```
 - Executable file at `.\target\debug\hello_cargo.exe`.
-- `Cargo.lock` at top level keeps tract of exact version of project dependencies. Never manually edit this file, Cargo manages it.
+- `Cargo.lock` at top level keeps track of exact version of project dependencies. Never manually edit this file, Cargo manages it.
 - `--release` flag compiles the project with optimisations that result in a slower compilation but faster executable. Always use `--release` flag for profiling and production releases. E.g.:
     ```
     PS C:\Users\peter\Documents\rust-projects\hello_cargo> cargo build --release
